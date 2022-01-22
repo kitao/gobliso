@@ -1,0 +1,15 @@
+[package]
+name = "gobliso"
+version = "0.5.0"
+authors = ["Takashi Kitao <takashi.kitao@gmail.com>"]
+edition = "2021"
+description = "Simple image resizer for Instagram"
+repository = "https://github.com/kitao/gobliso"
+license = "MIT"
+readme = "README.md"
+categories = ["graphics", "gui"]
+keywords = ["image", "resize", "tool"]
+
+[dependencies]
+image = "0.23.14"
+pyxel-engine = "1.6.7"
